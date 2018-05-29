@@ -25,6 +25,7 @@ coming soon
 ```shell
 /usr/local/bin/im-select [im]
 ```
+For example `/usr/local/bin/im-select com.apple.keylayout.US`
 ## windows
 
 ## linux
