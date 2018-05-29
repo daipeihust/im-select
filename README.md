@@ -11,10 +11,10 @@ curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_m
 The im-select program will be downloaded to your `/usr/local/bin/` path.
 ## windows
 
-[Click here](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe) to download the im-select.exe, and move it to the proper path.
+Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe), and move it to the proper path.(If you need the 64 bit version, you can download [this one](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe).)
 
 ## linux
-coming soon
+Coming soon
 
 # Usage
 
@@ -41,4 +41,4 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 /path/to/im-select.exe locale
 ```
 
-> Note: 
+> Note: The path in windows is like: C:\Users\path\to\file
