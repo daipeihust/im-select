@@ -1,5 +1,5 @@
 # im-select
-Switch your input method from terminal. This project is a basic support for [VSCodeVim](https://github.com/VSCodeVim/Vim). It provide the command line program for VSCodeVim's autoSwitchIM function
+Switch your input method from terminal. This project is a basic support for [VSCodeVim](https://github.com/VSCodeVim/Vim). It provides the command line program for VSCodeVim's autoSwitchIM function
 
 # Installation
 
