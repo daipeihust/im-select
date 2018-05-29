@@ -19,6 +19,7 @@ Coming soon
 # Usage
 
 ## macOS
+If your PATH contains `/usr/local/bin`, you can just use `im-select` instead of `/usr/local/bin/im-select`
 ### To get current input method key
 ```shell
 /usr/local/bin/im-select
