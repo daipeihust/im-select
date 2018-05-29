@@ -17,11 +17,11 @@ coming soon
 # Usage
 
 ## macOS
-- To get current input method key
+### To get current input method key
 ```shell
 /usr/local/bin/im-select
 ```
-- To switch current input method
+### To switch current input method
 ```shell
 /usr/local/bin/im-select [im]
 ```
