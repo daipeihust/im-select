@@ -4,27 +4,20 @@ Switch your input method from terminal. This project is a basic support for [VSC
 # Installation
 
 ## macOS
+
 Run following command in your terminal:
 ```shell
 curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_mac.sh | sh
 ```
 The im-select program will be downloaded to your `/usr/local/bin/` path.
+
 ## windows
 
 Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe), and move it to the proper path.(If you need the 64 bit version, you can download [this one](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe).)
 
 ## linux
 
-### ibus
-
-[@mengbo](https://github.com/mengbo) provided this configuration for ibus
-
-```
-"vim.autoSwitchInputMethod.enable": true,
-"vim.autoSwitchInputMethod.defaultIM": "xkb:us::eng",
-"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/ibus engine",
-"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/ibus engine {im}"
-```
+You don't have to install this for linux. linux have tools to switch input methods
 
 
 # Usage
@@ -40,6 +33,31 @@ If your PATH contains `/usr/local/bin`, you can just use `im-select` instead of 
 /usr/local/bin/im-select imkey
 ```
 For example `/usr/local/bin/im-select com.apple.keylayout.US`
+
+## linux
+
+### ibus
+
+[@mengbo](https://github.com/mengbo) provided this configuration for ibus
+
+```
+"vim.autoSwitchInputMethod.enable": true,
+"vim.autoSwitchInputMethod.defaultIM": "xkb:us::eng",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/ibus engine",
+"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/ibus engine {im}"
+```
+
+### xkb-switch
+
+[VEL4EG](https://github.com/VEL4EG) provided this configuration for xkb-switch
+
+```
+"vim.autoSwitchInputMethod.enable": true,
+"vim.autoSwitchInputMethod.defaultIM": "us",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/xkb-switch",
+"vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/xkb-switch -s {im}"
+```
+
 ## windows
 The im-select.exe is command line program, but it can't work in cmd or powershell. It's microsoft's fault, the keyboard API doesn't support in cmd and powershell. I recommend you [babun](http://babun.github.io/), an open source windows shell.
 
