@@ -58,6 +58,15 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/xkb-switch -s {im}"
 ```
 
+### fcitx
+
+```
+"vim.autoSwitchInputMethod.enable": true,
+"vim.autoSwitchInputMethod.defaultIM": "1",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
+"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
+```
+
 ## windows
 The im-select.exe is command line program, but it can't work in cmd or powershell. It's microsoft's fault, the keyboard API doesn't support in cmd and powershell. I recommend you [babun](http://babun.github.io/), an open source windows shell.
 
