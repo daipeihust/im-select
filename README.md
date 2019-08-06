@@ -70,7 +70,7 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 ## windows
 The im-select.exe is command line program, but it can't work in cmd or powershell. It's microsoft's fault, the keyboard API doesn't support in cmd and powershell. I recommend you git-bash.
 
-> Note: The git-bash is not required. It's only used to get current input method key, which needed in VSCodeVim configuration.
+> Note: The git-bash is not required. It's only used to get current input method key, which needed in VSCodeVim's configuration.
 
 ### To get current keyboard locale
 ```shell
