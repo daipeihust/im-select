@@ -60,7 +60,7 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 
 ### fcitx
 
-[@yunhao94](https://github.com/yunhao94)provided this configuration for fcitx
+[@yunhao94](https://github.com/yunhao94) provided this configuration for fcitx
 
 ```
 "vim.autoSwitchInputMethod.enable": true,
