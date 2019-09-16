@@ -49,7 +49,7 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 
 ### xkb-switch
 
-[VEL4EG](https://github.com/VEL4EG) provided this configuration for xkb-switch
+[@VEL4EG](https://github.com/VEL4EG) provided this configuration for xkb-switch
 
 ```
 "vim.autoSwitchInputMethod.enable": true,
@@ -59,6 +59,8 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 ```
 
 ### fcitx
+
+[@yunhao94](https://github.com/yunhao94)provided this configuration for fcitx
 
 ```
 "vim.autoSwitchInputMethod.enable": true,
