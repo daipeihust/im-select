@@ -13,3 +13,7 @@ curl -Ls -o /usr/local/bin/im-select https://github.com/daipeihust/im-select/raw
 chmod 777 /usr/local/bin/im-select
 
 echo "* im-select is installed!"
+echo "*"
+echo "*"
+echo "*"
+echo "* now run \"im-select\" in your terminal!"
