@@ -68,6 +68,20 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
 ```
+### gdbus
+
+[@d-r-q](https://github.com/d-r-q)
+
+Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval "imports.ui.status.keyboard.getInputSourceManager().currentSource.index" | awk -F'[^0-9]*' '{print $2}'` into get-im.sh.
+
+Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval "imports.ui.status.keyboard.getInputSourceManager().inputSources[$1].activate()"` into set-im.sh.
+
+```
+"vim.autoSwitchInputMethod.enable": true,
+"vim.autoSwitchInputMethod.defaultIM": "0"
+"vim.autoSwitchInputMethod.obtainIMCmd": "<path to get-im.sh>",
+"vim.autoSwitchInputMethod.switchIMCmd": "<path to set-im.sh> {im}",
+```
 
 ## windows
 The im-select.exe is command line program, but it can't work in cmd or powershell. It's microsoft's fault, the keyboard API doesn't support in cmd and powershell. I recommend you git-bash.
