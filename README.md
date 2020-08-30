@@ -102,8 +102,8 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 # Support me
 
-![support me](./support_me.jpeg)
+<img src="support_me.jpeg" width="300">
 
 # Contact me
 
-![contact me](./contact_me.jpeg)
+<img src="contact_me.jpeg" width="300">
