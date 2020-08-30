@@ -100,10 +100,9 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 > Note: The path in windows is like: C:\Users\path\to\file
 
-# Support me
+# Contact & Support
 
-<img src="support_me.jpeg" width="300">
-
-# Contact me
-
-<img src="contact_me.jpeg" width="300">
+<figure class="half">
+    <img src="contact_me.jpeg" width="300">
+    <img src="support_me.jpeg" width="300">
+</figure>
