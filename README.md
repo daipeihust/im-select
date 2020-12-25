@@ -78,7 +78,7 @@ Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell 
 
 ```
 "vim.autoSwitchInputMethod.enable": true,
-"vim.autoSwitchInputMethod.defaultIM": "0"
+"vim.autoSwitchInputMethod.defaultIM": "0",
 "vim.autoSwitchInputMethod.obtainIMCmd": "<path to get-im.sh>",
 "vim.autoSwitchInputMethod.switchIMCmd": "<path to set-im.sh> {im}",
 ```
