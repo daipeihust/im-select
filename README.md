@@ -5,6 +5,26 @@ Switch your input method from terminal. This project is a basic support for [VSC
 
 ## macOS
 
+### Homebrew
+
+Run following command in your terminal:
+
+```shell
+brew tap daipeihust/tap && brew install im-select
+```
+
+Then you can run following command to find your `im-select` path:
+
+```shell
+which im-select
+```
+
+Normaly the result is `/usr/local/bin/im-select`.
+
+Now, you can use im-select to print your current input method.
+
+### use script
+
 Run following command in your terminal:
 ```shell
 curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_mac.sh | sh
@@ -27,6 +47,7 @@ You don't have to install this for linux. linux have tools to switch input metho
 # Usage
 
 ## macOS
+
 If your PATH contains `/usr/local/bin`, you can just use `im-select` instead of `/usr/local/bin/im-select`
 ### To get current input method key
 ```shell
