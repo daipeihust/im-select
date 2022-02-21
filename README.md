@@ -39,6 +39,13 @@ Click [here](https://github.com/daipeihust/im-select/blob/8080ad18f20218d1b6b5ef
 
 Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe), and move it to the proper path.(If you need the 64 bit version, you can download [this one](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe).)
 
+use Scoop package manager:
+
+```bat
+scoop bucket add im-select https://github.com/daipeihust/im-select
+scoop install im-select
+```
+
 ## linux
 
 You don't have to install this for linux. linux have tools to switch input methods
