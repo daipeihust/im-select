@@ -43,9 +43,11 @@ Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/
 
 ### Use Scoop package manager:
 
-```bat
+```powershell
 scoop bucket add im-select https://github.com/daipeihust/im-select
 scoop install im-select
+# print the path:
+scoop which im-select
 ```
 
 ## linux
@@ -96,10 +98,10 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 
 [@yunhao94](https://github.com/yunhao94) provided this configuration for fcitx
 
-```
+```jsonc
 "vim.autoSwitchInputMethod.enable": true,
 "vim.autoSwitchInputMethod.defaultIM": "1",
-"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote", // or "/usr/bin/fcitx5-remote"
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
 ```
 ### gdbus
