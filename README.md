@@ -102,6 +102,18 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
 ```
+
+### fcitx5
+
+[@cherrot](https://github.com/cherrot) provided this configuration for fcitx5, ugly but working (Suppose you want to switch between `keyboard-us` and `pinyin`.)
+
+```
+"vim.autoSwitchInputMethod.enable": true,
+"vim.autoSwitchInputMethod.defaultIM": "keyboard-us",
+"vim.autoSwitchInputMethod.obtainIMCmd": "[[ `/usr/bin/fcitx5-remote` == 2 ]] && echo pinyin || echo keyboard-us",
+"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -s {im}",
+```
+
 ### gdbus
 
 [@d-r-q](https://github.com/d-r-q)
