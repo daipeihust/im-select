@@ -116,7 +116,7 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 
 ### gdbus
 
-[@d-r-q](https://github.com/d-r-q)
+[@d-r-q](https://github.com/d-r-q) provided this configuration for gdbus
 
 Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval "imports.ui.status.keyboard.getInputSourceManager().currentSource.index" | awk -F'[^0-9]*' '{print $2}'` into get-im.sh.
 
@@ -128,6 +128,22 @@ Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell 
 "vim.autoSwitchInputMethod.obtainIMCmd": "<path to get-im.sh>",
 "vim.autoSwitchInputMethod.switchIMCmd": "<path to set-im.sh> {im}",
 ```
+
+### KDE
+
+[@ArtemT](https://github.com/ArtemT) provided this configuration for KDE
+
+> I'm using Kubuntu 22.04, have reasons to avoid ibus or fcitx, just trying to keep everything by default :) 
+> 
+> I have a problem with proposed xkb-switch method: it works, but it makes the language indicator disappear from system tray, so and global menu for VSCode.
+
+```
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/qdbus org.kde.keyboard /Layouts getLayout",
+"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/qdbus org.kde.keyboard /Layouts setLayout {im}",
+"vim.autoSwitchInputMethod.defaultIM": "0",
+"vim.autoSwitchInputMethod.enable": true
+```
+
 
 ## windows
 The im-select.exe is command line program, but it can't work in cmd or powershell. It's microsoft's fault, the keyboard API doesn't support in cmd and powershell. I recommend you git-bash.
