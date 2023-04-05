@@ -13,7 +13,7 @@ curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_m
 ```
 The im-select program will be downloaded to your `/usr/local/bin/` path.
 
-### M1 Mac support
+### Apple Silicon support
 
 Click [here](https://github.com/daipeihust/im-select/blob/8080ad18f20218d1b6b5ef81d26cc5452d56b165/im-select-mac/out/apple/im-select) to download specific im-select program
 
