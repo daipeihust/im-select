@@ -1,52 +1,24 @@
 # im-select
-Switch your input method from terminal. This project is a basic support for [VSCodeVim](https://github.com/VSCodeVim/Vim). It provides the command line program for VSCodeVim's autoSwitchIM function
+Switch your input method from console. This project is a basic support for [VSCodeVim](https://github.com/VSCodeVim/Vim). It provides the command line program for VSCodeVim's autoSwitchIM function
+
 
 # Installation
 
 ## macOS
 
-### Homebrew
-
-Run following command in your terminal:
-
-```shell
-brew tap daipeihust/tap && brew install im-select
-```
-
-Then you can run following command to find your `im-select` path:
-
-```shell
-which im-select
-```
-
-Normaly the result is `/usr/local/bin/im-select`.
-
-Now, you can use im-select to print your current input method.
-
-### Use script
-
-Run following command in your terminal:
+Run following command in your console:
 ```shell
 curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_mac.sh | sh
 ```
 The im-select program will be downloaded to your `/usr/local/bin/` path.
 
-### Apple Silicon Mac support
+### M1 Mac support
 
 Click [here](https://github.com/daipeihust/im-select/blob/8080ad18f20218d1b6b5ef81d26cc5452d56b165/im-select-mac/out/apple/im-select) to download specific im-select program
 
 ## windows
 
-### Manual download
-
 Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe), and move it to the proper path.(If you need the 64 bit version, you can download [this one](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe).)
-
-### Use Scoop package manager:
-
-```bat
-scoop bucket add im-select https://github.com/daipeihust/im-select
-scoop install im-select
-```
 
 ## linux
 
@@ -56,7 +28,6 @@ You don't have to install this for linux. linux have tools to switch input metho
 # Usage
 
 ## macOS
-
 If your PATH contains `/usr/local/bin`, you can just use `im-select` instead of `/usr/local/bin/im-select`
 ### To get current input method key
 ```shell
@@ -102,21 +73,9 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
 ```
-
-### fcitx5
-
-[@cherrot](https://github.com/cherrot) provided this configuration for fcitx5, ugly but working (Suppose you want to switch between `keyboard-us` and `pinyin`.)
-
-```
-"vim.autoSwitchInputMethod.enable": true,
-"vim.autoSwitchInputMethod.defaultIM": "keyboard-us",
-"vim.autoSwitchInputMethod.obtainIMCmd": "[[ `/usr/bin/fcitx5-remote` == 2 ]] && echo pinyin || echo keyboard-us",
-"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -s {im}",
-```
-
 ### gdbus
 
-[@d-r-q](https://github.com/d-r-q) provided this configuration for gdbus
+[@d-r-q](https://github.com/d-r-q) provide this configuration for gdbus
 
 Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval "imports.ui.status.keyboard.getInputSourceManager().currentSource.index" | awk -F'[^0-9]*' '{print $2}'` into get-im.sh.
 
@@ -129,24 +88,8 @@ Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell 
 "vim.autoSwitchInputMethod.switchIMCmd": "<path to set-im.sh> {im}",
 ```
 
-### KDE
-
-[@ArtemT](https://github.com/ArtemT) provided this configuration for KDE
-
-> I'm using Kubuntu 22.04, have reasons to avoid ibus or fcitx, just trying to keep everything by default :) 
-> 
-> I have a problem with proposed xkb-switch method: it works, but it makes the language indicator disappear from system tray, so and global menu for VSCode.
-
-```
-"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/qdbus org.kde.keyboard /Layouts getLayout",
-"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/qdbus org.kde.keyboard /Layouts setLayout {im}",
-"vim.autoSwitchInputMethod.defaultIM": "0",
-"vim.autoSwitchInputMethod.enable": true
-```
-
-
 ## windows
-The im-select.exe is command line program, but it can't work in cmd or powershell. It's microsoft's fault, the keyboard API doesn't support in cmd and powershell. I recommend you git-bash.
+The im-select.exe is command line program, but it can't work in cmd or powershell. It's microsoft's bug, the keyboard API doesn't support in cmd and powershell. I recommend you git-bash.
 
 > Note: The git-bash is not required. It's only used to get current input method key, which needed in VSCodeVim's configuration.
 
@@ -162,8 +105,9 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 > Note: The path in windows is like: C:\Users\path\to\file
 
-# Contact
+# Contact & Support
 
 <div align="left">
     <img src="contact_me.jpeg" height="300">
+    <img src="support_me.jpeg" height="300">
 </div>
