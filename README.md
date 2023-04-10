@@ -1,7 +1,10 @@
 # Welcome to **im-select** 👋
 
-
 ## Prerequisites
+
+- have a Mac/Windows/Linux device
+- download [git-bash](https://gitforwindows.org/)(if you on windows)
+- know how to use [shell](https://zh.wikipedia.org/wiki/Unix_shell)
 
 ## Install
 
@@ -111,7 +114,12 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 ## Author
 
+[daipeihust](github.com/daipeihust)
+[liwanwhu](github.com/liwanwhu)
+
 ## 🤝 Contributing
+
+if you find some issues, welcome to create pull request!
 
 ## Show your support
 
