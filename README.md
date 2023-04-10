@@ -1,27 +1,10 @@
 # Welcome to <%= im-select %> 👋
-[![Version](https://img.shields.io/npm/v/<%= projectName %>.svg)(https://www.npmjs.com/package/<%= projectName %>)
-![Prerequisite](https://img.shields.io/badge/<%= name %>-<%= encodeURIComponent(value) %>-blue.svg)
-<% if (isGithubRepos) { -%>
-[![Maintenance][(https://img.shields.io/badge/Maintained%3F-yes-green.svg)](<%= repositoryUrl %>/graphs/commit-activity)
-<% } -%>
-<% if (licenseName) { -%>
-[![License: <%= licenseName %>](https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>)](<%= licenseUrl ? licenseUrl : '#' %>)
-<% } -%>
 
 ### 🏠 [Homepage](<%= projectHomepage %>)
-<% if (projectDemoUrl) { -%>
 
 ### ✨ [Demo](<%= projectDemoUrl %>)
-<% } -%>
-<% if (projectPrerequisites && projectPrerequisites.length) { -%>
 
 ## Prerequisites
-
-<% projectPrerequisites.map(({ name, value }) => { -%>
-- <%= name %> <%= value %>
-<% }) -%>
-<% } -%>
-<% if (installCommand) { -%>
 
 ## Install
 
@@ -45,9 +28,7 @@ Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/
 
 You don't have to install this for linux. linux have tools to switch input methods
 
-
 ## Usage
-
 
 ## macOS
 If your PATH contains `/usr/local/bin`, you can just use `im-select` instead of `/usr/local/bin/im-select`
@@ -132,30 +113,8 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 > Note: The path in windows is like: C:\Users\path\to\file
 
 ## Author
-<% if (authorName) { %>
-👤 **<%= authorName %>**
-<% } %>
-<% if (authorWebsite) { -%>
-* Website: <%= authorWebsite %>
-<% } -%>
-<% if (authorTwitterUsername) { -%>
-* Twitter: [@<%= authorTwitterUsername %>](https://twitter.com/<%= authorTwitterUsername %>)
-<% } -%>
-<% if (authorGithubUsername) { -%>
-* GitHub: [@<%= authorGithubUsername %>](https://github.com/<%= authorGithubUsername %>)
-<% } -%>
-<% if (authorLinkedInUsername) { -%>
-* LinkedIn: [@<%= authorLinkedInUsername %>](https://linkedin.com/in/<%= authorLinkedInUsername %>)
-<% } -%>
-<% } -%>
-<% if (issuesUrl) { -%>
 
 ## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
-<% } -%>
 
 ## Show your support
 
