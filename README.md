@@ -4,7 +4,10 @@
 
 Switch your input method in shell. This project is a basic support for VSCodeVim. It provides the command line program for VSCodeVim's autoSwitchIM function
 
-![](https://img.shields.io/badge/Author-daipeihust-blue)![GitHub repo size](https://img.shields.io/github/repo-size/daipeihust/im-select)
+![](https://img.shields.io/badge/Author-daipeihust-blue)
+![GitHub repo size](https://img.shields.io/github/repo-size/daipeihust/im-select)
+![GitHub release (by tag)](https://img.shields.io/github/downloads/daipeihust/im-select/1.0.1/total)
+![GitHub issues](https://img.shields.io/github/issues/daipeihust/im-select)
 
 [中文文档](./README_CN.md)
 
