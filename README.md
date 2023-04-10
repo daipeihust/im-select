@@ -1,8 +1,5 @@
-# Welcome to <%= im-select %> 👋
+# Welcome to **im-select** 👋
 
-### 🏠 [Homepage](<%= projectHomepage %>)
-
-### ✨ [Demo](<%= projectDemoUrl %>)
 
 ## Prerequisites
 
