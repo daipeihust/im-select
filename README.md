@@ -122,7 +122,7 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 ## 🤝 Contributing
 
-if you find some issues, welcome to create pull request!
+If you find some issues, welcome to create pull request!
 
 ## Show your support
 
