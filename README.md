@@ -2,6 +2,8 @@
 
 Switch your input method in shell. This project is a basic support for VSCodeVim. It provides the command line program for VSCodeVim's autoSwitchIM function
 
+[中文文档](./README_CN.md)
+
 ## Prerequisites
 
 - use [VSCodeVim](https://github.com/VSCodeVim/Vim)
