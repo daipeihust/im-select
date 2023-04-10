@@ -6,8 +6,16 @@ Switch your input method in shell. This project is a basic support for VSCodeVim
 
 ![](https://img.shields.io/badge/Author-daipeihust-blue)
 ![GitHub repo size](https://img.shields.io/github/repo-size/daipeihust/im-select)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/daipeihust/im-select)
 ![GitHub release (by tag)](https://img.shields.io/github/downloads/daipeihust/im-select/1.0.1/total)
 ![GitHub issues](https://img.shields.io/github/issues/daipeihust/im-select)
+![GitHub](https://img.shields.io/github/license/daipeihust/im-select)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/daipeihust/im-select)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/daipeihust/im-select)
+![GitHub contributors](https://img.shields.io/github/contributors/daipeihust/im-select)
+![GitHub last commit](https://img.shields.io/github/last-commit/daipeihust/im-select)
+![GitHub Discussions](https://img.shields.io/github/discussions/daipeihust/im-select)
+![GitHub Repo stars](https://img.shields.io/github/stars/daipeihust/im-select?style=social)
 
 [中文文档](./README_CN.md)
 
