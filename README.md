@@ -1,14 +1,31 @@
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+# Welcome to <%= im-select %> 👋
+[![Version](https://img.shields.io/npm/v/<%= projectName %>.svg)(https://www.npmjs.com/package/<%= projectName %>)
+![Prerequisite](https://img.shields.io/badge/<%= name %>-<%= encodeURIComponent(value) %>-blue.svg)
+<% if (isGithubRepos) { -%>
+[![Maintenance][(https://img.shields.io/badge/Maintained%3F-yes-green.svg)](<%= repositoryUrl %>/graphs/commit-activity)
+<% } -%>
+<% if (licenseName) { -%>
+[![License: <%= licenseName %>](https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>)](<%= licenseUrl ? licenseUrl : '#' %>)
+<% } -%>
 
-[中文文档](./README_CN.md)
+### 🏠 [Homepage](<%= projectHomepage %>)
+<% if (projectDemoUrl) { -%>
 
-# im-select
-Switch your input method from console. This project is a basic support for [VSCodeVim](https://github.com/VSCodeVim/Vim). It provides the command line program for VSCodeVim's autoSwitchIM function
+### ✨ [Demo](<%= projectDemoUrl %>)
+<% } -%>
+<% if (projectPrerequisites && projectPrerequisites.length) { -%>
 
+## Prerequisites
 
-# Installation
+<% projectPrerequisites.map(({ name, value }) => { -%>
+- <%= name %> <%= value %>
+<% }) -%>
+<% } -%>
+<% if (installCommand) { -%>
 
-## macOS
+## Install
+
+### macOS
 
 Run following command in your console:
 ```shell
@@ -16,20 +33,21 @@ curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_m
 ```
 The im-select program will be downloaded to your `/usr/local/bin/` path.
 
-### Apple Silicon support
+#### Apple Silicon support
 
 Click [here](https://github.com/daipeihust/im-select/blob/8080ad18f20218d1b6b5ef81d26cc5452d56b165/im-select-mac/out/apple/im-select) to download specific im-select program
 
-## windows
+### windows
 
 Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe), and move it to the proper path.(If you need the 64 bit version, you can download [this one](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe).)
 
-## linux
+### linux
 
 You don't have to install this for linux. linux have tools to switch input methods
 
 
-# Usage
+## Usage
+
 
 ## macOS
 If your PATH contains `/usr/local/bin`, you can just use `im-select` instead of `/usr/local/bin/im-select`
@@ -97,21 +115,58 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 > Note: The git-bash is not required. It's only used to get current input method key, which needed in VSCodeVim's configuration.
 
+## Run tests
+
 ### To get current keyboard locale
+
 ```shell
 /path/to/im-select.exe
 ```
 
 ### To switch current keyboard locale
+
 ```shell
 /path/to/im-select.exe locale
 ```
 
 > Note: The path in windows is like: C:\Users\path\to\file
 
-# Contact & Support
+## Author
+<% if (authorName) { %>
+👤 **<%= authorName %>**
+<% } %>
+<% if (authorWebsite) { -%>
+* Website: <%= authorWebsite %>
+<% } -%>
+<% if (authorTwitterUsername) { -%>
+* Twitter: [@<%= authorTwitterUsername %>](https://twitter.com/<%= authorTwitterUsername %>)
+<% } -%>
+<% if (authorGithubUsername) { -%>
+* GitHub: [@<%= authorGithubUsername %>](https://github.com/<%= authorGithubUsername %>)
+<% } -%>
+<% if (authorLinkedInUsername) { -%>
+* LinkedIn: [@<%= authorLinkedInUsername %>](https://linkedin.com/in/<%= authorLinkedInUsername %>)
+<% } -%>
+<% } -%>
+<% if (issuesUrl) { -%>
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
+<% } -%>
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
 
 <div align="left">
     <img src="contact_me.jpeg" height="300">
     <img src="support_me.jpeg" height="300">
 </div>
+
+## 📝 License
+
+
+
