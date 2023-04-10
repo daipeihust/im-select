@@ -1,3 +1,4 @@
+![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
 [中文文档](./README_CN.md)
 # im-select
 Switch your input method from console. This project is a basic support for [VSCodeVim](https://github.com/VSCodeVim/Vim). It provides the command line program for VSCodeVim's autoSwitchIM function
