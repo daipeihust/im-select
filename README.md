@@ -25,9 +25,7 @@ Switch your input method in shell. This project is a basic support for VSCodeVim
 
 &nbsp;
 
-<div align="center">
-[中文文档](./README_CN.md)
-</div>
+想要阅读中文文档请点击[这里](./README_CN.md)
 
 
 
