@@ -3,7 +3,9 @@
 ![image](https://user-images.githubusercontent.com/13344830/231004446-5aba70e1-0f4d-455c-965b-b24b22741b21.png)
 
 <div align="center">
-Switch your input method in shell. This project is a basic support for VSCodeVim. It provides the command line program for VSCodeVim's autoSwitchIM function
+Switch your input method in shell. This project is a basic support for VSCodeVim. It provides the command line program for VSCodeVim's autoSwitchIM function.   
+
+<br/>
 
 ![](https://img.shields.io/badge/Author-daipeihust-blue)
 ![GitHub repo size](https://img.shields.io/github/repo-size/daipeihust/im-select)
