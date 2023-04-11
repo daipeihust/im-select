@@ -17,6 +17,7 @@ Switch your input method in shell. This project is a basic support for VSCodeVim
 ![GitHub Discussions](https://img.shields.io/github/discussions/daipeihust/im-select)
 ![GitHub Repo stars](https://img.shields.io/github/stars/daipeihust/im-select?style=social)
 
+
 [中文文档](./README_CN.md)
 
 ## Prerequisites
