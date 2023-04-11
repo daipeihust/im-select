@@ -25,8 +25,7 @@ Switch your input method in shell. This project is a basic support for VSCodeVim
 
 &nbsp;
 
-想要阅读中文文档请点击[这里](./README_CN.md)
-
+[English](./README.md)|[简体中文](./README_CN.md)
 
 
 ## Prerequisites
