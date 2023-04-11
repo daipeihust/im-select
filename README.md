@@ -23,8 +23,13 @@ Switch your input method in shell. This project is a basic support for VSCodeVim
 
 </div>
 
+&nbsp;
 
+<div align="center">
 [中文文档](./README_CN.md)
+</div>
+
+
 
 ## Prerequisites
 
