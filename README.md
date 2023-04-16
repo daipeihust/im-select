@@ -1,6 +1,7 @@
 # Welcome to **im-select** 👋
 
-![image](https://user-images.githubusercontent.com/13344830/231098264-f6527f9c-2527-4b3a-ab1e-725220dc66d8.png)
+
+![image](https://user-images.githubusercontent.com/13344830/232276758-4ec32de1-6a2d-4034-9c04-42ac5a2e09c8.png)
 
 
 <div align="center">
