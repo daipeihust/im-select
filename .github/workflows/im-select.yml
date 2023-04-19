@@ -1,2 +1,2 @@
-name: im-select
+- name: im-select
 uses: Platane/snk@v2.2.1
