@@ -32,7 +32,7 @@ Switch your input method in shell. This project is a basic support for VSCodeVim
 
 ## Prerequisites
 
-- use [VSCodeVim](https://github.com/VSCodeVim/Vim)
+- using [VSCodeVim](https://github.com/VSCodeVim/Vim)
 - have a Mac/Windows/Linux device
 - download [git-bash](https://gitforwindows.org/)(if you on windows)
 - know how to use [shell](https://zh.wikipedia.org/wiki/Unix_shell)
