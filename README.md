@@ -107,6 +107,7 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
 ```
+
 ### gdbus
 
 [@d-r-q](https://github.com/d-r-q) provide this configuration for gdbus
@@ -120,6 +121,17 @@ Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell 
 "vim.autoSwitchInputMethod.defaultIM": "0",
 "vim.autoSwitchInputMethod.obtainIMCmd": "<path to get-im.sh>",
 "vim.autoSwitchInputMethod.switchIMCmd": "<path to set-im.sh> {im}",
+```
+
+### qdbus (KDE)
+
+[@igorechek06](https://igorek.dev) provided this configuration for qdbus
+
+```
+"vim.autoSwitchInputMethod.enable": true,
+"vim.autoSwitchInputMethod.defaultIM": "0",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/bin/qdbus org.kde.keyboard /Layouts getLayout",
+"vim.autoSwitchInputMethod.switchIMCmd": "/bin/qdbus org.kde.keyboard /Layouts setLayout {im}",
 ```
 
 ## windows
