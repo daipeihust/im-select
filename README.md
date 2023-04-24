@@ -130,8 +130,8 @@ Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell 
 ```
 "vim.autoSwitchInputMethod.enable": true,
 "vim.autoSwitchInputMethod.defaultIM": "0",
-"vim.autoSwitchInputMethod.obtainIMCmd": "/bin/qdbus org.kde.keyboard /Layouts getLayout",
-"vim.autoSwitchInputMethod.switchIMCmd": "/bin/qdbus org.kde.keyboard /Layouts setLayout {im}",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/qdbus org.kde.keyboard /Layouts getLayout",
+"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/qdbus org.kde.keyboard /Layouts setLayout {im}",
 ```
 
 ## windows
