@@ -41,10 +41,18 @@ Switch your input method in shell. This project is a basic support for VSCodeVim
 
 ### macOS
 
-Run following command in your console:
+#### Homebrew
+
+```shell
+brew install im-select
+```
+
+Or you can run following command in your console:
+
 ```shell
 curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_mac.sh | sh
 ```
+
 The im-select program will be downloaded to your `/usr/local/bin/` path.
 
 #### Apple Silicon support
