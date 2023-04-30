@@ -12,12 +12,6 @@ curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_m
 ```
 im-select程序会被下载到`/usr/local/bin/`路径。
 
-
-### Apple Silicon 支持
-
-
-点击[这里](https://github.com/daipeihust/im-select/blob/8080ad18f20218d1b6b5ef81d26cc5452d56b165/im-select-mac/out/apple/im-select)下载特殊的版本。
-
 ## windows
 
 下载 [im-select.exe](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe)，然后把它移动到一个合适的路径。（如果你需要64位的版本，可以下载[这个](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe)）
