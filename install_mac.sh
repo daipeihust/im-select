@@ -9,9 +9,10 @@ fi
 echo "* Downloading im-select..."
 
 if [ "$(uname -m)" = "arm64" ]; then
-  curl -Ls -o /usr/local/bin/im-select https://github.com/daipeihust/im-select/master/macOS/out/apple/im-select
+  curl -Ls -o /usr/local/bin/im-select https://github.com/daipeihust/im-select/blob/master/macOS/out/apple/im-select
 else
-  curl -Ls -o /usr/local/bin/im-select https://github.com/daipeihust/im-select/master/macOS/out/intel/im-select
+  curl -Ls -o /usr/local/bin/im-select https://github.com/daipeihust/im-select/blob/master/macOS/out/intel/im-select
+
 fi
 
 chmod 777 /usr/local/bin/im-select
