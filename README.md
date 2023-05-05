@@ -44,6 +44,7 @@ Switch your input method in shell. This project is a basic support for VSCodeVim
 #### Homebrew
 
 ```shell
+brew tap daipeihust/tap
 brew install im-select
 ```
 
