@@ -176,7 +176,7 @@ If you find some issues, welcome to create pull request!
 
 Give a ⭐️ if this project helped you!
 
-Buy me a coffee, if you like it!
+Buy me a coffee, if you like it! If you have any problems, you can contact me via email!
 
 <div align="left">
     <img src="contact_me.jpeg" height="300">
