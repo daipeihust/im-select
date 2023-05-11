@@ -3,7 +3,7 @@
 ## Introduce 
 Orgin im-select could only change IME 
 This version allow you change IME Mode in second parameter
-The pre-build exe is under the `thisdir/out/`
+The pre-build exe is under the `/win-imm/out/`
 
 ## Usage 
 
