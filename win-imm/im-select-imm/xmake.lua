@@ -10,6 +10,8 @@ target("im-select-imm")
  
     add_rules("win.sdk.application")
     add_ldflags("-subsystem:console")
+    add_links("imm32")
+
 
 
 
