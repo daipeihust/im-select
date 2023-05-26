@@ -165,8 +165,8 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 ## Author
 
-- [daipeihust](github.com/daipeihust)
-- [liwanwhu](github.com/liwanwhu)
+- [daipeihust](https://github.com/daipeihust)
+- [liwanwhu](https://github.com/liwanwhu)
 
 ## 🤝 Contributing
 
