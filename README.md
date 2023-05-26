@@ -164,6 +164,7 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 > Note: The path in windows is like: C:\Users\path\to\file
 
 ## Author
+<a href="https://github.com/liwanwhu"><img  src="https://avatars.githubusercontent.com/u/22877659?v=4"></a>
 
 - [daipeihust](https://github.com/daipeihust)
 - [liwanwhu](https://github.com/liwanwhu)
