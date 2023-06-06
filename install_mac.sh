@@ -8,7 +8,7 @@ fi
 
 echo "* Downloading im-select..."
 
-curl -Ls -o /usr/local/bin/im-select https://github.com/daipeihust/im-select/master/macOS/out/intel/im-select 
+curl -Ls -o /usr/local/bin/im-select https://github.com/daipeihust/im-select/blob/master/macOS/out/intel/im-select
 
 chmod 777 /usr/local/bin/im-select
 
