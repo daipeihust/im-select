@@ -20,7 +20,7 @@ im-select程序会被下载到`/usr/local/bin/`路径。
 
 ## windows
 
-下载 [im-select.exe](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe)，然后把它移动到一个合适的路径。（如果你需要64位的版本，可以下载[这个](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe)）
+下载 [im-select.exe](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe)，然后把它移动到一个合适的路径。（如果你需要64位的版本，可以下载[这个](https://github.com/daipeihust/im-select/raw/master/win/out/x64/im-select.exe)）
 
 ## linux
 
