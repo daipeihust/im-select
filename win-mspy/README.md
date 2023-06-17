@@ -20,6 +20,12 @@ im-select-mspy 是一个针对微软拼音输入法的输入法切换工具, 它
 
 上述 `-t`, `-i` 可以通过 [Accessibility Insights](https://accessibilityinsights.io/docs/windows/overview/) 工具来获取.
 
+例如英文系统下，`im-select-mspy.exe` 的示例参数为：
+
+```
+im-select-mspy.exe -t="Taskbar" -k="ctrl+space" -i="Tray Input Indicator\s+(\w+)" {im}
+```
+
 # 使用
 
 使用方法参考 [VsCodeVim](https://github.com/VSCodeVim/Vim/blob/f3f9850739e93fe5cc95827a64180fbf67fd377d/README.md#input-method) 的说明.
