@@ -6,17 +6,19 @@ im-select可以让你从命令行切换输入法。这个项目是 [VSCodeVim](h
 
 ## macOS
 
-将下面一行复制到你的命令行中并运行：
+#### Homebrew
+
+```shell
+brew tap daipeihust/tap
+brew install im-select
+```
+
+或者将下面一行复制到你的命令行中并运行：
+
 ```shell
 curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_mac.sh | sh
 ```
 im-select程序会被下载到`/usr/local/bin/`路径。
-
-
-### Apple Silicon 支持
-
-
-点击[这里](https://github.com/daipeihust/im-select/blob/8080ad18f20218d1b6b5ef81d26cc5452d56b165/im-select-mac/out/apple/im-select)下载特殊的版本。
 
 ## windows
 
