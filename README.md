@@ -162,8 +162,9 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 ## Author
 
-- [daipeihust](github.com/daipeihust)
-- [liwanwhu](github.com/liwanwhu)
+<a href="https://github.com/daipeihust"><img width='50px' height='50px' src="https://avatars.githubusercontent.com/u/13344830?&v=4"></a>
+<a href="https://github.com/liwanwhu"><img width='50px' height='50px' src="https://avatars.githubusercontent.com/u/22877659?v=4"></a> 
+ 
 
 ## 🤝 Contributing
 
@@ -173,7 +174,7 @@ If you find some issues, welcome to create pull request!
 
 Give a ⭐️ if this project helped you!
 
-Buy me a coffee, if you like it!
+Buy me a coffee, if you like it! If you have any problems, you can contact me via email!
 
 <div align="left">
     <img src="contact_me.jpeg" height="300">
