@@ -109,6 +109,8 @@ Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell 
 ```
 
 > 注意：Windows系统的路径和Linux会有些不一样，类似这样: C:\Users\path\to\file
+### windows-imm
+详见 [select-im-imm](./win-imm/im-select-imm/README_CN.md) 提供切换同一输入法下中英文的能力
 
 # 联系我
 
