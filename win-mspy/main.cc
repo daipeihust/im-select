@@ -29,7 +29,7 @@ struct CliOptions
 {
   // no prefix
   wstring mode;
-  // -k= 
+  // -k=
   wstring switch_keys;
   // -t=
   wstring taskbar_name;
@@ -230,7 +230,7 @@ int wmain(int argc, wchar_t * argv[])
 
   if (!ime_button.pElement)
   {
-    return 1;
+    exit(1);
   }
 
 
@@ -251,5 +251,5 @@ int wmain(int argc, wchar_t * argv[])
 
 
   CoUninitialize();
-  return 0;
+  exit(0);
 }
