@@ -56,11 +56,11 @@ curl -Ls https://raw.githubusercontent.com/daipeihust/im-select/master/install_m
 
 The im-select program will be downloaded to your `/usr/local/bin/` path.
 
-### windows
+### Windows
 
 Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/win/out/x86/im-select.exe), and move it to the proper path.(If you need the 64 bit version, you can download [this one](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe).)
 
-### linux
+### Linux
 
 You don't have to install this for linux. linux have tools to switch input methods
 
@@ -78,11 +78,11 @@ If your PATH contains `/usr/local/bin`, you can just use `im-select` instead of 
 ```
 For example `/usr/local/bin/im-select com.apple.keylayout.US`
 
-## linux
+## Linux
 
-### ibus
+### IBus
 
-[@mengbo](https://github.com/mengbo) provided this configuration for ibus
+[@mengbo](https://github.com/mengbo) provided this configuration for IBus
 
 ```
 "vim.autoSwitchInputMethod.enable": true,
@@ -139,7 +139,7 @@ Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell 
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/qdbus org.kde.keyboard /Layouts setLayout {im}",
 ```
 
-## windows
+## Windows
 The im-select.exe is command line program, but it can't work in cmd or powershell. It's microsoft's bug, the keyboard API doesn't support in cmd and powershell. I recommend you git-bash.
 
 > Note: The git-bash is not required. It's only used to get current input method key, which needed in VSCodeVim's configuration.
