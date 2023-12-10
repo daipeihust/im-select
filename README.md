@@ -120,7 +120,7 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 ```
 "vim.autoSwitchInputMethod.enable": true,
 "vim.autoSwitchInputMethod.defaultIM": "keyboard-us",
-"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote -n",
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -s {im}",
 ```
 
