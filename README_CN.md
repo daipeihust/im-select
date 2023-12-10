@@ -78,6 +78,18 @@ Linux环境下你不需要下载im-select，因为Linux有许多命令行工具�
 "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
 ```
+
+### fcitx5
+
+[@Winson-Huang](https://github.com/Winson-Huang) 为 fcitx5 提供了如下配置：
+
+```
+"vim.autoSwitchInputMethod.enable": true,
+"vim.autoSwitchInputMethod.defaultIM": "keyboard-us",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote -n",
+"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -s {im}",
+```
+
 ### gdbus
 
 [@d-r-q](https://github.com/d-r-q) 为 gdbus 提供了如下配置：

@@ -113,6 +113,17 @@ For example `/usr/local/bin/im-select com.apple.keylayout.US`
 "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
 ```
 
+### fcitx5
+
+[@Winson-Huang](https://github.com/Winson-Huang) provided this configuration for fcitx5
+
+```
+"vim.autoSwitchInputMethod.enable": true,
+"vim.autoSwitchInputMethod.defaultIM": "keyboard-us",
+"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote -n",
+"vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -s {im}",
+```
+
 ### gdbus
 
 [@d-r-q](https://github.com/d-r-q) provide this configuration for gdbus
