@@ -204,6 +204,17 @@ void print_options(const CliOptions & options)
   wcout << L"mode: " << options.mode << endl;
 }
 
+string w2utf8(const wstring& str)
+{
+  string buf;
+  buf.resize(str.size() * 4);
+  auto n = WideCharToMultiByte(CP_UTF8, 0, str.c_str(), -1, buf.data(), (int)buf.length(), NULL, NULL);
+  if (n == 0) {
+    return "";
+  }
+  buf.resize(n-1);
+  return buf;
+}
 
 int wmain(int argc, wchar_t * argv[])
 {
@@ -237,7 +248,7 @@ int wmain(int argc, wchar_t * argv[])
   if (options.mode.empty())
   {
     // get current mode
-    wcout << ime_button.current_mode << endl;
+    cout << w2utf8(ime_button.current_mode) << endl;
   }
   else
   {
