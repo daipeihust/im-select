@@ -58,7 +58,7 @@ The im-select program will be downloaded to your `/usr/local/bin/` path.
 
 ### windows
 
-Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/win/out/x86/im-select.exe), and move it to the proper path.(If you need the 64 bit version, you can download [this one](https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe).)
+Download the [im-select.exe](https://github.com/daipeihust/im-select/raw/master/win/out/x86/im-select.exe), and move it to the proper path.(If you need the 64 bit version, you can download [this one](https://github.com/daipeihust/im-select/raw/master/win/out/x64/im-select.exe).)
 
 ### linux
 
